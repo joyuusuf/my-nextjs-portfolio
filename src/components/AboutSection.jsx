@@ -38,7 +38,11 @@ const TAB_DATA = [
     id: "experience",
     content: (
       <ul className='list-disc pl-2'>
-        <li>Front-End Developer Intern (Remote), Smarthivetech Solutions LTD, Lagos, Nigeria.</li>
+        <li>
+          Front-End Developer Intern (Remote), Smarthivetech Solutions LTD, Lagos, Nigeria.
+           22nd July 2024 - 3rd October 2024
+
+        </li>
       </ul>
     )
   }

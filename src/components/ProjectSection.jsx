@@ -25,7 +25,7 @@ const projectsData = [
     },
     {
         id: 3,
-        title: "E-commerce Application",
+        title: "Twitter Portfolio Website",
         description: "Project 3 description",
         image: "/images/projects/3.png",
         tag: ["All", "Web"],
@@ -52,9 +52,19 @@ const projectsData = [
     },
     {
         id: 6,
-        title: "Full-stack Roadmap",
+        title: "Bank App",
         description: "Project 5 description",
         image: "/images/projects/6.png",
+        tag: ["All", "Web"],
+        gitUrl: "/",
+        previewUrl: "/",
+    },
+
+    {
+        id: 7,
+        title: "Calculator",
+        description: "Project 5 description",
+        image: "/images/projects/7.png",
         tag: ["All", "Web"],
         gitUrl: "/",
         previewUrl: "/",
