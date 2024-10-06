@@ -18,7 +18,7 @@ const HeroSection = () => {
 
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 
-                            Hello, I'm {""}
+                            Hello, I'm {" "}
 
                         </span>
                         <br></br>
@@ -31,7 +31,7 @@ const HeroSection = () => {
                                 1000,
                                 'a Front-End Developer',
                                 1000,
-                                'a Cookbook Publisher',
+                                'a Published Cookbook Author',
                                 1000
                             ]}
                             wrapper="span"
