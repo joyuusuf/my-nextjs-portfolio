@@ -1,8 +1,44 @@
-import React from 'react'
+'use client';
+import React, {useState} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
+
 const EmailSection = () => {
+
+    const [emailSubmitted, setEmailSubmitted] = useState(false);
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const data = {
+            email: e.target.email.value,
+            subject: e.target.subject.value,
+            message: e.target.message.value,
+        };
+        const JSONdata = JSON.stringify(data);
+        const endpoint = "/api/send";
+
+        // Form the request for sending data to the server.
+        const options = {
+            // The method is POST because we are sending data.
+            method: "POST",
+            // Tell the server we're sending JSON.
+            headers: {
+                "Content-Type": "application/json",
+            },
+            // Body of the request is the JSON data we created above.
+            body: JSONdata,
+        };
+
+        const response = await fetch(endpoint, options);
+        const resData = await response.json();
+
+        if (response.status === 200) {
+            console.log("Message sent.");
+            setEmailSubmitted(true);
+        }
+    };
+
     return (
         <section>
             <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
@@ -15,15 +51,30 @@ const EmailSection = () => {
                     {" "}
                     I'm currently looking for new opportunities, my inbox is always
                     open. Whether you have a question or just want to say hi, I'll
-                    try my best to get back to you!
+                   surely get back to you!
                 </p>
-                <div className="socials flex flex-row gap-2">
-                    <Link href="github.com">
-                        <Image src={github.jpeg} alt="Github Icon" />
+                <div className="socials flex flex-row gap-8">
+
+                    <Link href="https://github.com/joyuusuf/joyuusuf">
+                    <img src="/images/git-icon.png" alt="GitHub Icon"  width={90} />
                     </Link>
-                    <Link href="linkedin.com">
-                        <Image src={linkedin.png} alt="Linkedin Icon" />
+
+                    <Link href="https://www.linkedin.com/in/jawad-olamide-yuusuf">
+                    <img src="/images/linkedin.png" alt="LinkedIn Icon" height={300} width={70} />
                     </Link>
+                    
+                    <Link href="https://mail.google.com/">
+                    <img src="/images/email.png" alt="email Icon" height={300} width={70} />
+                    </Link>
+                    <Link href="https://www.facebook.com/yuusuf.olamide.9/">
+                
+                    <img src="/images/facebook.png" alt="facebook Icon" height={300} width={70}  />
+                    </Link>
+
+                    <Link href="https://twitter.com/mideyuusuf">
+                    <img src="/images/x.png" alt="twitter Icon" height={300} width={70} />
+                    </Link>
+
                 </div>
             </div>
             <div>

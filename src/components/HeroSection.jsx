@@ -40,11 +40,15 @@ const HeroSection = () => {
                         />
                     </h1>
 
-                    <p className='text-[#ADB7BE] text-base  sm:text-lg lg:text-xl mb-6 '>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Doloribus odit voluptatibus
-                        nam nihil ea facere reiciendis voluptates
-                        ex laboriosam ducimus sunt ipsam blanditiis sequi eius accusamus
-                        reprehenderit, laborum iure doloremque.
+                    <p className='text-[#ADB7BE] text-base  sm:text-lg lg:text-xl mb-6 font-serif'>
+                        As a developer, I bring ideas to life with clean, responsive designs and 
+                        user-friendly experiences. My expertise in HTML, CSS, JavaScript, React and Next.js  lets me craft digital 
+                        solutions that are not only functional but visually engaging.
+                        When I'm not coding, I dive into the world of culinary creativity, 
+                        writing and publishing cookbooks on Amazon. My latest projects blend 
+                        the art of cooking with the science of health, 
+                        offering readers a taste of delicious, well-researched recipes.
+                        Let's connect, build, and create something amazing together!
                     </p>
 
                     <div>
