@@ -4,12 +4,12 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
-// Renamed projectsData to webProjects for clarity
+
 const webProjects = [
     {
         id: 1,
-        title: "React Portfolio Website",
-        description: "Project 1 description",
+        title: "My Next.js Portfolio",
+        description: "My Portfolio built with Next.js",
         image: "/images/projects/1.png",
         tag: ["All", "Web"],
         gitUrl: "/",
