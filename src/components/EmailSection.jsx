@@ -64,10 +64,10 @@ const EmailSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
 
       <div className="z-10 max-w-3xl mx-auto px-4">
-        <h5 className="text-4xl font-bold text-white mt-14">Let's Connect</h5>
+        <h5 className="text-4xl font-bold text-white mt-14">Let&apos;s Connect</h5>
 
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I'm currently looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I'll surely get back to you!
+          I&apos;m currently looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll surely get back to you!
         </p>
 
         {/* Social Links Without <a> Tags */}
@@ -96,7 +96,7 @@ const EmailSection = () => {
         {/* Success Message */}
         {emailSubmitted && (
           <p className="text-green-500 text-sm mt-2">
-            Email sent successfully! I'll get back to you shortly.
+            Email sent successfully! I&apos;ll get back to you shortly.
           </p>
         )}
 

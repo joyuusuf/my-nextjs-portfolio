@@ -18,7 +18,7 @@ const HeroSection = () => {
 
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 
-                            Hello, I'm {" "}
+                            Hello, I&apos;m {" "}
 
                         </span>
                         <br></br>
@@ -46,10 +46,10 @@ const HeroSection = () => {
                         React and Next.js  
                         lets me craft digital solutions that are not only functional 
                         but visually engaging.
-                        When I'm not coding, I dive into writing and publishing cookbooks on Amazon.
+                        When I&apos;m not coding, I dive into writing and publishing cookbooks on Amazon.
                         My books blend the art of cooking with the science of health, 
                         offering readers a taste of delicious, well-researched recipes.
-                        Let's connect, build, and create something amazing together!
+                        Let&apos;s connect, build, and create something amazing together!
                     </p>
 
                     <div>
@@ -62,7 +62,7 @@ const HeroSection = () => {
                 </div>
                 <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
                     <div className='rounded-full bg-[#181818] [w-300px] [h-300px] lg:w-[450px] lg:h-[450px] relative'>
-                        <img src="/images/hero-3a.png" alt="hero-section"
+                        <Image src="/images/hero-3a.png" alt="hero-section"
                             width={400} height={350}
                             className='absolute transform -translate-x-1 -translate-y-1/2 top-1/2 left-1/4' />
 
