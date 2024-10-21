@@ -17,11 +17,11 @@ const webProjects = [
     },
     {
         id: 2,
-        title: "Potography Portfolio Website",
-        description: "Project 2 description",
+        title: "Admin Page",
+        description: "This consist of log in, sign up, dashboard and order page with dark and light mode, fully responsive on across devices.",
         image: "/images/projects/2.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "/https://github.com/joyuusuf/admin-page.git",
         previewUrl: "/",
     },
     {
@@ -35,11 +35,11 @@ const webProjects = [
     },
     {
         id: 4,
-        title: "React Firebase Template",
-        description: "Authentication and CRUD operations",
-        image: "/images/projects/5.png",
+        title: "Amazon NavBar",
+        description: "Built with HTML and CSS, but byet to write the media query",
+        image: "/images/projects/4.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "/https://github.com/joyuusuf/Amazon-Website.git",
         previewUrl: "/",
     },
     {
