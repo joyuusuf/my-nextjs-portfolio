@@ -60,6 +60,17 @@ const webProjects = [
         gitUrl: "https://github.com/joyuusuf/Calculator.git",
         previewUrl: "/",
     },
+
+
+    {
+        id: 11,
+        title: "My HTML Portfolio",
+        description: "This portfolio was built with HTML, CSS and JavaScript. It is fully responsive across devices",
+        image: "/images/projects/11.png",
+        tag: ["All", "Web"],
+        gitUrl: "",
+        previewUrl: "/",
+    },
 ];
 
 const cookbooks = [
