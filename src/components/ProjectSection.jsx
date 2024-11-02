@@ -12,7 +12,7 @@ const webProjects = [
         description: "My Portfolio built with Next.js",
         image: "/images/projects/1.png",
         tag: [ "Project"],
-        gitUrl: "/",
+        gitUrl: "/https://github.com/joyuusuf/my-nextjs-portfolio.git",
         previewUrl: "",
     },
     {
