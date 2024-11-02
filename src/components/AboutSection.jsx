@@ -18,6 +18,8 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>MongoDB</li>
         <li>Git</li>
+        <li>Figma</li>
+
       </ul>
     )
   },
@@ -80,7 +82,9 @@ const AboutSection = () => {
             <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>
               {" "}
               Education {" "}
-            </TabButton> <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experiece"}>
+            </TabButton> 
+            
+            <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"}>
               {" "}
               Experience {" "}
             </TabButton>

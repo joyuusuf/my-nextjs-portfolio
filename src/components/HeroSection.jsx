@@ -41,13 +41,13 @@ const HeroSection = () => {
                     </h1>
 
                     <p className='text-[#ADB7BE] text-base  sm:text-lg lg:text-xl mb-6 font-serif'>
-                        As a developer, I build clean, responsive and 
-                        user-friendly websites. My expertise in HTML, CSS, JavaScript, 
-                        React and Next.js  
-                        lets me craft digital solutions that are not only functional 
+                        As a developer, I build clean, responsive and
+                        user-friendly websites. My expertise in HTML, CSS, JavaScript,
+                        React and Next.js
+                        lets me craft digital solutions that are not only functional
                         but visually engaging.
                         When I&apos;m not coding, I dive into writing and publishing cookbooks on Amazon.
-                        My books blend the art of cooking with the science of health, 
+                        My books blend the art of cooking with the science of health,
                         offering readers a taste of delicious, well-researched recipes.
                         Let&apos;s connect, build, and create something amazing together!
                     </p>
@@ -55,7 +55,7 @@ const HeroSection = () => {
                     <div>
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Hire Me</button>
                         <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-r  from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
-                            <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px- py-2'><a href="https://we.tl/t-sip03eULSt">Download CV</a> </span>
+                            <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px- py-2'><a href="https://drive.google.com/file/d/1M-MxKWn4OoWSsUIbqrlnmsPLhSuf0R5S/view?usp=drive_link">Download CV</a> </span>
                         </button>
                     </div>
 
