@@ -12,7 +12,7 @@ const webProjects = [
         description: "My Portfolio built with Next.js",
         image: "/images/projects/1.png",
         tag: [ "Project"],
-        gitUrl: "/https://github.com/joyuusuf/my-nextjs-portfolio.git",
+        gitUrl: "https://github.com/joyuusuf/my-nextjs-portfolio.git",
         previewUrl: "",
     },
     {
@@ -21,7 +21,7 @@ const webProjects = [
         description: "Designed and developed a fully responsive Admin Dashboard using Next.js, Tailwind CSS, and ShadCN UI library. The dashboard features a user-friendly interface with interactive elements, optimized for seamless navigation and functionality across devices.",
         image: "/images/projects/2.png",
         tag: [ "Project"],
-        gitUrl: "/https://github.com/joyuusuf/admin-page.git",
+        gitUrl: "https://github.com/joyuusuf/admin-page.git",
         previewUrl: "/",
     },
     {
@@ -39,7 +39,7 @@ const webProjects = [
         description: "Amazon Navbar built with HTML and CSS",
         image: "/images/projects/4.png",
         tag: [ "Project"],
-        gitUrl: "/https://github.com/joyuusuf/Amazon-Website.git",
+        gitUrl: "https://github.com/joyuusuf/Amazon-Website.git",
         previewUrl: "/",
     },
     {
@@ -69,7 +69,7 @@ const webProjects = [
         image: "/images/projects/11.png",
         tag: ["Project"],
         gitUrl: "https://github.com/joyuusuf/my-first-portfolio.git",
-        previewUrl: "/ https://mideyuusuf-newportfolio-rugn.vercel.app/ ",
+        previewUrl: "https://mideyuusuf-newportfolio-rugn.vercel.app/ ",
     },
 
     {

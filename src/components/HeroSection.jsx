@@ -25,14 +25,12 @@ const HeroSection = () => {
                         <TypeAnimation
                             sequence={[
 
-                                'Jawad Olamide YUUSUF',
+                                'J. Olamide YUUSUF',
                                 1000,
                                 'a Web Developer',
                                 1000,
-                                'a Front-End Developer',
+                                'a FrontEnd Developer',
                                 1000,
-                                'a Cookbook Author',
-                                1000
                             ]}
                             wrapper="span"
                             speed={50}
