@@ -45,6 +45,12 @@ const TAB_DATA = [
            22nd July 2024 - 3rd October 2024
 
         </li>
+
+        <li>
+          Front-End Developer, Cyberbuddies Ltd, Bodija, Ibadan, Oyo State, Nigeria.
+           October 2024 - December 2024
+
+        </li>
       </ul>
     )
   }
