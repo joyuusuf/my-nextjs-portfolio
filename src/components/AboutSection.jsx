@@ -12,6 +12,7 @@ const TAB_DATA = [
         <li>HTML</li>
         <li>CSS</li>
         <li>Bootstrap</li>
+        <li>Tailwind CSS</li> 
         <li>React</li>
         <li>Nextjs</li>
         <li>Firebase</li>
