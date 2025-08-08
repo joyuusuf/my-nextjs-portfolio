@@ -87,10 +87,10 @@ const webProjects = [
 
 
       {
-        id: 2,
+        id: 13,
         title: "HeadPhone",
         description: "A headphone website built with HTML, CSS and JavaScript",
-        image: "/images/projects/preview.png",
+        image: "/images/projects/13.png",
         tag: [ "Project"],
         gitUrl: "https://github.com/joyuusuf/headphone-plum.vercel.app",
         previewUrl: "/",
