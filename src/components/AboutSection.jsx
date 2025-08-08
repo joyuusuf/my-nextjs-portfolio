@@ -20,6 +20,8 @@ const TAB_DATA = [
         <li>MongoDB</li>
         <li>Git</li>
         <li>Figma</li>
+        <li>Cookbook Publishing (Amazon Kindle Direct Publishing)</li>
+        <li>E-Book Formatting.</li>
 
       </ul>
     )
@@ -73,8 +75,10 @@ const AboutSection = () => {
 
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full '>
           <h2 className='text-4xl font-bold text-white mb-4 '>About Me</h2>
-          <p className='text-base lg:text-lg '>I am a full stack web developer with a passion for 
-            creating interactive and responsive web applications. I have experience working with HTML, 
+          <p className='text-base lg:text-lg '>
+            I am a Front-End web developer with a passion for 
+            creating interactive and responsive web applications. 
+            I have experience working with HTML, 
             CSS, Bootstrap, JavaScript, React, Next.Js,
             NodeJs, MongoDB, Git. I am a quick learner and
             I am always looking to expand my knowledge and skill set.

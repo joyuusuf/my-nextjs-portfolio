@@ -15,7 +15,8 @@ const webProjects = [
         gitUrl: "https://github.com/joyuusuf/my-nextjs-portfolio.git",
         previewUrl: "",
     },
-    {
+
+     {
         id: 2,
         title: "Admin Page",
         description: "Designed and developed a fully responsive Admin Dashboard using Next.js, Tailwind CSS, and ShadCN UI library. The dashboard features a user-friendly interface with interactive elements, optimized for seamless navigation and functionality across devices.",
@@ -24,6 +25,8 @@ const webProjects = [
         gitUrl: "https://github.com/joyuusuf/admin-page.git",
         previewUrl: "/",
     },
+
+  
     {
         id: 3,
         title: "Twitter Portfolio Website",
@@ -51,15 +54,15 @@ const webProjects = [
         gitUrl: "https://github.com/joyuusuf/bank_app_with_firebase.git",
         previewUrl: "/",
     },
-    {
-        id: 6,
-        title: "Calculator",
-        description: "Calculator built with HTML, CSS and JavaScript",
-        image: "/images/projects/6.png",
-        tag: ["Project"],
-        gitUrl: "https://github.com/joyuusuf/Calculator.git",
-        previewUrl: "/",
-    },
+    // {
+    //     id: 6,
+    //     title: "Calculator",
+    //     description: "Calculator built with HTML, CSS and JavaScript",
+    //     image: "/images/projects/6.png",
+    //     tag: ["Project"],
+    //     gitUrl: "https://github.com/joyuusuf/Calculator.git",
+    //     previewUrl: "/",
+    // },
 
 
     {
@@ -79,6 +82,17 @@ const webProjects = [
         image: "/images/projects/12.png",
         tag: ["Project"],
         gitUrl: "https://github.com/joyuusuf/AlphaTwelve-Project.git",
+        previewUrl: "/",
+    },
+
+
+      {
+        id: 2,
+        title: "HeadPhone",
+        description: "A headphone website built with HTML, CSS and JavaScript",
+        image: "/images/projects/preview.png",
+        tag: [ "Project"],
+        gitUrl: "https://github.com/joyuusuf/headphone-plum.vercel.app",
         previewUrl: "/",
     },
 ];
