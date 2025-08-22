@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
+import { image } from "fontawesome";
 
 
 const webProjects = [
@@ -13,6 +14,16 @@ const webProjects = [
         image: "/images/projects/1.png",
         tag: [ "Project"],
         gitUrl: "https://github.com/joyuusuf/my-nextjs-portfolio.git",
+        previewUrl: "",
+    },
+
+    {
+        id: 1,
+        title: "Paybuddies Fintech",
+        description: "Paybuddies built with HTML, CSS, and JavaScript",
+        image: "/images/projects/14.png",
+        tag: [ "Project"],
+        gitUrl: "https://github.com/joyuusuf/headphone.git",
         previewUrl: "",
     },
 
