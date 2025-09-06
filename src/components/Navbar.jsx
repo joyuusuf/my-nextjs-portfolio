@@ -30,7 +30,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-4xl text-white font-semibold"
         >
-          PORT<b className="text-zinc-600">FOLIO</b>
+          NOVA<b className="text-zinc-600">GLIDE</b>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
