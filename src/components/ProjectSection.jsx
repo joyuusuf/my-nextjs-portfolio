@@ -21,7 +21,7 @@ const webProjects = [
         id: 2,
         title: "Paybuddies Fintech",
         description: "Paybuddies built with HTML, CSS, and JavaScript",
-        image: "/images/projects/14.png",
+        image: "/images/projects/paybuddies.png",
         tag: [ "Project"],
         gitUrl: "https://github.com/joyuusuf/payfintech.git",
         previewUrl: "https://github.com/joyuusuf/headphone.git",
@@ -39,14 +39,25 @@ const webProjects = [
 
   
     {
-        id: 4,
-        title: "Twitter Portfolio Website",
-        description: "Developed a Twitter Page Clone using only HTML and CSS, replicating the visual design and layout of Twitter’s interface. ",
-        image: "/images/projects/3.png",
+        id: 9,
+        title: "HeadPhone",
+        description: "A headphone website built with HTML, CSS and JavaScript",
+        image: "/images/projects/13.png",
         tag: [ "Project"],
-        gitUrl: "https://github.com/joyuusuf/Twitter-pages.git",
-        previewUrl: "/",
+        gitUrl: "https://github.com/joyuusuf/headphone.git",
+        previewUrl: "https://gbeduheadset.vercel.app/",
     },
+
+     {
+        id: 7,
+        title: "HTML Portfolio",
+        description: " Created an earlier version of my portfolio using HTML, CSS, and JavaScript. Showcased core web development skills with custom styling, responsive design, and interactive elements to enhance user engagement.",
+        image: "/images/projects/11.png",
+        tag: ["Project"],
+        gitUrl: "https://github.com/joyuusuf/my-first-portfolio.git",
+        previewUrl: "https://mideyuusuf-newportfolio-rugn.vercel.app/ ",
+    },
+   
     {
         id: 5,
         title: "Amazon NavBar",
@@ -75,17 +86,6 @@ const webProjects = [
     //     previewUrl: "/",
     // },
 
-
-    {
-        id: 7,
-        title: "HTML Portfolio",
-        description: " Created an earlier version of my portfolio using HTML, CSS, and JavaScript. Showcased core web development skills with custom styling, responsive design, and interactive elements to enhance user engagement.",
-        image: "/images/projects/11.png",
-        tag: ["Project"],
-        gitUrl: "https://github.com/joyuusuf/my-first-portfolio.git",
-        previewUrl: "https://mideyuusuf-newportfolio-rugn.vercel.app/ ",
-    },
-
     {
         id: 8,
         title: "Statistical Table",
@@ -96,15 +96,14 @@ const webProjects = [
         previewUrl: "https://github.com/joyuusuf/AlphaTwelve-Project.git",
     },
 
-
-      {
-        id: 9,
-        title: "HeadPhone",
-        description: "A headphone website built with HTML, CSS and JavaScript",
-        image: "/images/projects/13.png",
+     {
+        id: 4,
+        title: "Twitter Portfolio Website",
+        description: "Developed a Twitter Page Clone using only HTML and CSS, replicating the visual design and layout of Twitter’s interface. ",
+        image: "/images/projects/3.png",
         tag: [ "Project"],
-        gitUrl: "https://github.com/joyuusuf/headphone.git",
-        previewUrl: "https://gbeduheadset.vercel.app/",
+        gitUrl: "https://github.com/joyuusuf/Twitter-pages.git",
+        previewUrl: "/",
     },
 ];
 
