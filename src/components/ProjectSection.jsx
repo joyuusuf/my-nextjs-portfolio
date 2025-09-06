@@ -104,7 +104,7 @@ const webProjects = [
         image: "/images/projects/13.png",
         tag: [ "Project"],
         gitUrl: "https://github.com/joyuusuf/headphone.git",
-        previewUrl: "https://gbeduheadphone-gbu2.vercel.app/",
+        previewUrl: "https://gbeduheadset.vercel.app/",
     },
 ];
 
