@@ -13,33 +13,33 @@ const webProjects = [
         description: "My Portfolio built with Next.js",
         image: "/images/projects/1.png",
         tag: [ "Project"],
-        gitUrl: "https://github.com/joyuusuf/my-nextjs-portfolio.git",
-        previewUrl: "",
+        gitUrl: "",
+        previewUrl: "https://github.com/joyuusuf/my-nextjs-portfolio.git",
     },
 
     {
-        id: 1,
+        id: 2,
         title: "Paybuddies Fintech",
         description: "Paybuddies built with HTML, CSS, and JavaScript",
         image: "/images/projects/14.png",
         tag: [ "Project"],
-        gitUrl: "https://github.com/joyuusuf/headphone.git",
-        previewUrl: "",
+        gitUrl: "https://github.com/joyuusuf/payfintech.git",
+        previewUrl: "https://github.com/joyuusuf/headphone.git",
     },
 
      {
-        id: 2,
+        id: 3,
         title: "Admin Page",
         description: "Designed and developed a fully responsive Admin Dashboard using Next.js, Tailwind CSS, and ShadCN UI library. The dashboard features a user-friendly interface with interactive elements, optimized for seamless navigation and functionality across devices.",
         image: "/images/projects/2.png",
         tag: [ "Project"],
         gitUrl: "https://github.com/joyuusuf/admin-page.git",
-        previewUrl: "/",
+        previewUrl: "https://github.com/joyuusuf/admin-page.git",
     },
 
   
     {
-        id: 3,
+        id: 4,
         title: "Twitter Portfolio Website",
         description: "Developed a Twitter Page Clone using only HTML and CSS, replicating the visual design and layout of Twitter’s interface. ",
         image: "/images/projects/3.png",
@@ -48,7 +48,7 @@ const webProjects = [
         previewUrl: "/",
     },
     {
-        id: 4,
+        id: 5,
         title: "Amazon NavBar",
         description: "Amazon Navbar built with HTML and CSS",
         image: "/images/projects/4.png",
@@ -57,7 +57,7 @@ const webProjects = [
         previewUrl: "/",
     },
     {
-        id: 5,
+        id: 6,
         title: "Bank App",
         description: "Bank App with sign up, log in, making transfer, buying airtime, log out, getting receipt, signing out with firebase backend, built with HTML, CSS, and JavaScript.",
         image: "/images/projects/5.png",
@@ -77,7 +77,7 @@ const webProjects = [
 
 
     {
-        id: 11,
+        id: 7,
         title: "HTML Portfolio",
         description: " Created an earlier version of my portfolio using HTML, CSS, and JavaScript. Showcased core web development skills with custom styling, responsive design, and interactive elements to enhance user engagement.",
         image: "/images/projects/11.png",
@@ -87,24 +87,24 @@ const webProjects = [
     },
 
     {
-        id: 12,
+        id: 8,
         title: "Statistical Table",
         description: "Built an interactive Statistical Table using HTML, CSS, and JavaScript with a fully responsive design adaptable to various screen sizes. Integrated dark and light mode toggling to enhance accessibility and user experience.",
         image: "/images/projects/12.png",
         tag: ["Project"],
         gitUrl: "https://github.com/joyuusuf/AlphaTwelve-Project.git",
-        previewUrl: "/",
+        previewUrl: "https://github.com/joyuusuf/AlphaTwelve-Project.git",
     },
 
 
       {
-        id: 13,
+        id: 9,
         title: "HeadPhone",
         description: "A headphone website built with HTML, CSS and JavaScript",
         image: "/images/projects/13.png",
         tag: [ "Project"],
-        gitUrl: "https://github.com/joyuusuf/headphone-plum.vercel.app",
-        previewUrl: "/",
+        gitUrl: "https://github.com/joyuusuf/headphone.git",
+        previewUrl: "https://gbeduheadphone-gbu2.vercel.app/",
     },
 ];
 
