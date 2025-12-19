@@ -40,8 +40,8 @@ const HeroSection = () => {
 
                     <p className='text-[#ADB7BE] text-base  sm:text-lg lg:text-xl mb-6 font-serif'>
                         As a developer, I build clean, responsive and
-                        user-friendly websites. My expertise in HTML, CSS, JavaScript,
-                        React and Next.js
+                        user-friendly websites. My expertise in HTML, CSS, JavaScript, Typescript,
+                        React.js and Next.js
                         lets me craft digital solutions that are not only functional
                         but visually engaging.
                         When I&apos;m not coding, I dive into writing and publishing cookbooks on Amazon.
