@@ -12,7 +12,7 @@ const webProjects = [
         title: "My Next.js Portfolio",
         description: "My Portfolio built with Next.js",
         image: "/images/projects/1.png",
-        tag: [ "Project"],
+        tag: ["Project"],
         gitUrl: "",
         previewUrl: "https://github.com/joyuusuf/my-nextjs-portfolio.git",
     },
@@ -22,33 +22,41 @@ const webProjects = [
         title: "Paybuddies Fintech",
         description: "Paybuddies built with HTML, CSS, and JavaScript",
         image: "/images/projects/paybuddies.png",
-        tag: [ "Project"],
+        tag: ["Project"],
         gitUrl: "https://github.com/joyuusuf/payfintech.git",
         previewUrl: "https://github.com/joyuusuf/headphone.git",
     },
 
-     {
+    {
         id: 3,
         title: "Admin Page",
         description: "Designed and developed a fully responsive Admin Dashboard using Next.js, Tailwind CSS, and ShadCN UI library. The dashboard features a user-friendly interface with interactive elements, optimized for seamless navigation and functionality across devices.",
         image: "/images/projects/2.png",
-        tag: [ "Project"],
+        tag: ["Project"],
         gitUrl: "https://github.com/joyuusuf/admin-page.git",
         previewUrl: "https://github.com/joyuusuf/admin-page.git",
     },
 
-  
+    {
+        id: 10,
+        title: "Paidley Banking Web App",
+        description: "A modern fintech app that lets users send, receive, and manage money globally, with multi-currency wallets, virtual cards, and secure international transfers.",
+        image: "/images/projects/paidleyimage.png",
+        tag: ["Project"],
+        gitUrl: "https://github.com/joyuusuf/paid-banking.git",
+        previewUrl: "/",
+    },
     {
         id: 9,
         title: "HeadPhone",
         description: "A headphone website built with HTML, CSS and JavaScript",
         image: "/images/projects/13.png",
-        tag: [ "Project"],
+        tag: ["Project"],
         gitUrl: "https://github.com/joyuusuf/headphone.git",
         previewUrl: "https://gbeduheadset.vercel.app/",
     },
 
-     {
+    {
         id: 7,
         title: "HTML Portfolio",
         description: " Created an earlier version of my portfolio using HTML, CSS, and JavaScript. Showcased core web development skills with custom styling, responsive design, and interactive elements to enhance user engagement.",
@@ -57,16 +65,18 @@ const webProjects = [
         gitUrl: "https://github.com/joyuusuf/my-first-portfolio.git",
         previewUrl: "https://mideyuusuf-newportfolio-rugn.vercel.app/ ",
     },
-   
+
     {
         id: 5,
         title: "Amazon NavBar",
         description: "Amazon Navbar built with HTML and CSS",
         image: "/images/projects/4.png",
-        tag: [ "Project"],
+        tag: ["Project"],
         gitUrl: "https://github.com/joyuusuf/Amazon-Website.git",
         previewUrl: "/",
     },
+
+
     {
         id: 6,
         title: "Bank App",
@@ -76,16 +86,6 @@ const webProjects = [
         gitUrl: "https://github.com/joyuusuf/bank_app_with_firebase.git",
         previewUrl: "/",
     },
-    // {
-    //     id: 6,
-    //     title: "Calculator",
-    //     description: "Calculator built with HTML, CSS and JavaScript",
-    //     image: "/images/projects/6.png",
-    //     tag: ["Project"],
-    //     gitUrl: "https://github.com/joyuusuf/Calculator.git",
-    //     previewUrl: "/",
-    // },
-
     {
         id: 8,
         title: "Statistical Table",
@@ -96,12 +96,12 @@ const webProjects = [
         previewUrl: "https://github.com/joyuusuf/AlphaTwelve-Project.git",
     },
 
-     {
+    {
         id: 4,
         title: "Twitter Portfolio Website",
         description: "Developed a Twitter Page Clone using only HTML and CSS, replicating the visual design and layout of Twitter’s interface. ",
         image: "/images/projects/3.png",
-        tag: [ "Project"],
+        tag: ["Project"],
         gitUrl: "https://github.com/joyuusuf/Twitter-pages.git",
         previewUrl: "/",
     },
@@ -120,9 +120,9 @@ const ProjectSection = () => {
 
     let contentToDisplay = [];
 
-     if (tag === "Project") {
+    if (tag === "Project") {
         contentToDisplay = webProjects;
-    } 
+    }
 
     const cardVariants = {
         initial: { y: 50, opacity: 0 },
@@ -135,18 +135,18 @@ const ProjectSection = () => {
                 {tag === "My Projects"}
             </h2>
             <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-                
+
                 <ProjectTag
                     onClick={handleTagChange}
                     name="Project"
                     isSelected={tag === "Project"}
                 />
-                
+
             </div>
             <ul ref={ref} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
                 {contentToDisplay.map((item, index) => (
                     <motion.li
-                        key={item.id} 
+                        key={item.id}
                         variants={cardVariants}
                         initial="initial"
                         animate={isInView ? "animate" : "initial"}

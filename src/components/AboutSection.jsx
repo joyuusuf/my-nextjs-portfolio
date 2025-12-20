@@ -1,148 +1,113 @@
 'use client';
-import React, { useTransition, useState } from 'react';
-import Image from 'next/image';
+import React, { useTransition, useState } from 'react'
+import Image from 'next/image'
 import TabButton from './TabButton';
 
 const TAB_DATA = [
-  {
+  { 
     title: "Skills",
     id: "skills",
     content: (
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-
-        <div>
-          <h4 className="font-semibold mb-2">Frontend</h4>
-          <ul className="list-disc pl-4 space-y-1">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript (ES6+)</li>
-            <li>React</li>
-            <li>Next.js</li>
-            <li>TypeScript</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="font-semibold mb-2">Next.js & Performance</h4>
-          <ul className="list-disc pl-4 space-y-1">
-            <li>Server-Side Rendering (SSR)</li>
-            <li>Static Site Generation (SSG)</li>
-            <li>SEO Best Practices</li>
-            <li>Image Optimization</li>
-            <li>Lazy Loading</li>
-            <li>Code Splitting</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="font-semibold mb-2">Styling & UI</h4>
-          <ul className="list-disc pl-4 space-y-1">
-            <li>Tailwind CSS</li>
-            <li>Bootstrap</li>
-            <li>ShadCN UI</li>
-            <li>Responsive Design</li>
-            <li>UI/UX Principles</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="font-semibold mb-2">Tools & Backend Basics</h4>
-          <ul className="list-disc pl-4 space-y-1">
-            <li>Git & GitHub</li>
-            <li>REST APIs</li>
-            <li>Firebase</li>
-            <li>MongoDB</li>
-            <li>Node.js (Basics)</li>
-            <li>Figma</li>
-          </ul>
-        </div>
-
-      </div>
-    )
-  },
-  {
-    title: "Experience",
-    id: "experience",
-    content: (
       <ul className='list-disc pl-2'>
-        <li>
-          Front-End Developer Intern (Remote), SmarthiveTech Solutions Ltd, Lagos, Nigeria.
-          July 2024 – October 2024
-        </li>
-        <li>
-          Front-End Developer, Cyberbuddies Ltd, Ibadan, Oyo State, Nigeria.
-          November 2024 – January 2025
-        </li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>Tailwind CSS</li> 
+        <li>React</li>
+        <li>Nextjs</li>
+        <li>Firebase</li>
+        <li>Node.js</li>
+        <li>MongoDB</li>
+        <li>Git</li>
+        <li>Figma</li>
+        <li>Cookbook Publishing (Amazon Kindle Direct Publishing)</li>
+        <li>E-Book Formatting.</li>
+
       </ul>
     )
   },
+
   {
     title: "Education",
     id: "education",
     content: (
       <ul className='list-disc pl-2'>
         <li>SQI College of ICT, Dugbe Campus, Ibadan, Oyo State, Nigeria.</li>
-        <li>Obafemi Awolowo University (OAU), Ile-Ife, Osun State, Nigeria.</li>
+        <li>Obafemi Awolowo University (OAU), Ile-Ife, Osun State, Nigeria. </li>
+      </ul>
+    )
+  },
+
+  {
+    title: "Experience",
+    id: "experience",
+    content: (
+      <ul className='list-disc pl-2'>
+        <li>
+          Front-End Developer Intern (Remote), Smarthivetech Solutions LTD, Lagos, Nigeria.
+           22nd July 2024 - 3rd October 2024
+
+        </li>
+
+        <li>
+          Front-End Developer, Cyberbuddies Ltd, Bodija, Ibadan, Oyo State, Nigeria.
+           October 2024 - December 2024
+
+        </li>
       </ul>
     )
   }
-];
 
+]
 const AboutSection = () => {
   const [tab, setTab] = useState('skills');
-  const [fade, setFade] = useState(true);
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
-    setFade(false); // start fade out
-    setTimeout(() => {
-      startTransition(() => {
-        setTab(id);
-        setFade(true); // fade in new content
-      });
-    }, 200); // 200ms fade transition
-  };
-
+    startTransition(() => {
+      setTab(id)
+    });
+  }
   return (
     <section className='text-white'>
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-        <Image src="/images/abt-image.jpeg" alt="About me" width={500} height={500} />
+        <Image src="/images/abt-image.jpeg" alt="" width={500} height={500} />
 
-        <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-          <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-
-          <p className='text-base lg:text-lg'>
-            I am a Next.js-focused Front-End Developer with hands-on experience building
-            high-performance, responsive, and SEO-friendly web applications. I work with
-            React, Next.js, TypeScript, and modern CSS frameworks to create scalable and
-            maintainable user interfaces. I have experience implementing server-side
-            rendering (SSR), static site generation (SSG), integrating third-party APIs,
-            and optimizing applications for performance across devices. I enjoy
-            collaborating with designers and developers, participating in code reviews,
+        <div className='mt-4 md:mt-0 text-left flex flex-col h-full '>
+          <h2 className='text-4xl font-bold text-white mb-4 '>About Me</h2>
+          <p className='text-base lg:text-lg '>
+           I am a Next.js-focused Front-End Developer with hands-on experience building 
+            high-performance, responsive, and SEO-friendly web applications. I work with 
+            React, Next.js, TypeScript, and modern CSS frameworks to create scalable and 
+            maintainable user interfaces. I have experience implementing server-side 
+            rendering (SSR), static site generation (SSG), integrating third-party APIs, 
+            and optimizing applications for performance across devices. I enjoy 
+            collaborating with designers and developers, participating in code reviews, 
             and turning real business requirements into clean, reliable frontend solutions.
           </p>
-
           <div className='flex flex-row mt-8 gap-5 justify-start'>
-            {TAB_DATA.map((t) => (
-              <TabButton
-                key={t.id}
-                selectTab={() => handleTabChange(t.id)}
-                active={tab === t.id}
-              >
-                {t.title}
-              </TabButton>
-            ))}
+            <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
+              {" "}
+              Skills {" "}
+            </TabButton>
+
+            <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>
+              {" "}
+              Education {" "}
+            </TabButton> 
+            
+            <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"}>
+              {" "}
+              Experience {" "}
+            </TabButton>
+
           </div>
 
-          <div
-            className={`mt-8 transition-opacity duration-300 ${fade ? 'opacity-100' : 'opacity-0'}`}
-          >
-            {TAB_DATA.find((t) => t.id === tab)?.content}
-          </div>
+          <div className='mt-8'>{TAB_DATA.find ((t) => t.id === tab).content}</div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default AboutSection;
+export default AboutSection
