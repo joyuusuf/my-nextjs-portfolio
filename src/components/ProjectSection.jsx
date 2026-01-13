@@ -19,6 +19,16 @@ const webProjects = [
 
     {
         id: 2,
+        title: "FlowvaHub",
+        description: "Flowvahub helps you organize your digital workspace, track what you use and spend, and discover smarter tools, with an added twist of earning rewards while you do it.",
+        image: "/images/projects/f.png",
+        tag: ["Project"],
+        gitUrl: " https://github.com/joyuusuf/flowvahub",
+        previewUrl: "https://flowvahub-test-murex.vercel.app",
+    },
+
+    {
+        id: 3,
         title: "Paybuddies Fintech",
         description: "Paybuddies built with HTML, CSS, and JavaScript",
         image: "/images/projects/paybuddies.png",
@@ -28,7 +38,7 @@ const webProjects = [
     },
 
     {
-        id: 3,
+        id: 4,
         title: "Admin Page",
         description: "Designed and developed a fully responsive Admin Dashboard using Next.js, Tailwind CSS, and ShadCN UI library. The dashboard features a user-friendly interface with interactive elements, optimized for seamless navigation and functionality across devices.",
         image: "/images/projects/2.png",
@@ -38,7 +48,7 @@ const webProjects = [
     },
 
     {
-        id: 10,
+        id: 5,
         title: "Paidley Banking Web App",
         description: "A modern fintech app that lets users send, receive, and manage money globally, with multi-currency wallets, virtual cards, and secure international transfers.",
         image: "/images/projects/paidleyimage.png",
@@ -47,7 +57,7 @@ const webProjects = [
         previewUrl: "/",
     },
     {
-        id: 9,
+        id: 6,
         title: "HeadPhone",
         description: "A headphone website built with HTML, CSS and JavaScript",
         image: "/images/projects/13.png",
@@ -57,7 +67,7 @@ const webProjects = [
     },
 
     {
-        id: 7,
+        id: 8,
         title: "HTML Portfolio",
         description: " Created an earlier version of my portfolio using HTML, CSS, and JavaScript. Showcased core web development skills with custom styling, responsive design, and interactive elements to enhance user engagement.",
         image: "/images/projects/11.png",
@@ -66,8 +76,10 @@ const webProjects = [
         previewUrl: "https://mideyuusuf-newportfolio-rugn.vercel.app/ ",
     },
 
+     
+
     {
-        id: 5,
+        id: 9,
         title: "Amazon NavBar",
         description: "Amazon Navbar built with HTML and CSS",
         image: "/images/projects/4.png",
@@ -77,17 +89,17 @@ const webProjects = [
     },
 
 
+    // {
+    //     id: 6,
+    //     title: "Bank App",
+    //     description: "Bank App with sign up, log in, making transfer, buying airtime, log out, getting receipt, signing out with firebase backend, built with HTML, CSS, and JavaScript.",
+    //     image: "/images/projects/5.png",
+    //     tag: ["Project"],
+    //     gitUrl: "https://github.com/joyuusuf/bank_app_with_firebase.git",
+    //     previewUrl: "/",
+    // },
     {
-        id: 6,
-        title: "Bank App",
-        description: "Bank App with sign up, log in, making transfer, buying airtime, log out, getting receipt, signing out with firebase backend, built with HTML, CSS, and JavaScript.",
-        image: "/images/projects/5.png",
-        tag: ["Project"],
-        gitUrl: "https://github.com/joyuusuf/bank_app_with_firebase.git",
-        previewUrl: "/",
-    },
-    {
-        id: 8,
+        id: 10,
         title: "Statistical Table",
         description: "Built an interactive Statistical Table using HTML, CSS, and JavaScript with a fully responsive design adaptable to various screen sizes. Integrated dark and light mode toggling to enhance accessibility and user experience.",
         image: "/images/projects/12.png",
@@ -97,7 +109,7 @@ const webProjects = [
     },
 
     {
-        id: 4,
+        id: 11,
         title: "Twitter Portfolio Website",
         description: "Developed a Twitter Page Clone using only HTML and CSS, replicating the visual design and layout of Twitter’s interface. ",
         image: "/images/projects/3.png",
