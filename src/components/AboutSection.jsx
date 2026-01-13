@@ -4,7 +4,7 @@ import Image from 'next/image'
 import TabButton from './TabButton';
 
 const TAB_DATA = [
-  {
+  { 
     title: "Skills",
     id: "skills",
     content: (
@@ -20,6 +20,8 @@ const TAB_DATA = [
         <li>MongoDB</li>
         <li>Git</li>
         <li>Figma</li>
+        <li>Cookbook Publishing (Amazon Kindle Direct Publishing)</li>
+        <li>E-Book Formatting.</li>
 
       </ul>
     )
@@ -73,12 +75,15 @@ const AboutSection = () => {
 
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full '>
           <h2 className='text-4xl font-bold text-white mb-4 '>About Me</h2>
-          <p className='text-base lg:text-lg '>I am a full stack web developer with a passion for 
-            creating interactive and responsive web applications. I have experience working with HTML, 
-            CSS, Bootstrap, JavaScript, React, Next.Js,
-            NodeJs, MongoDB, Git. I am a quick learner and
-            I am always looking to expand my knowledge and skill set.
-            I am always excited to work with team to create amazing applications.
+          <p className='text-base lg:text-lg '>
+           I am a Next.js-focused Front-End Developer with hands-on experience building 
+            high-performance, responsive, and SEO-friendly web applications. I work with 
+            React, Next.js, TypeScript, and modern CSS frameworks to create scalable and 
+            maintainable user interfaces. I have experience implementing server-side 
+            rendering (SSR), static site generation (SSG), integrating third-party APIs, 
+            and optimizing applications for performance across devices. I enjoy 
+            collaborating with designers and developers, participating in code reviews, 
+            and turning real business requirements into clean, reliable frontend solutions.
           </p>
           <div className='flex flex-row mt-8 gap-5 justify-start'>
             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>

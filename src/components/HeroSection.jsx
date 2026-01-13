@@ -39,21 +39,27 @@ const HeroSection = () => {
                     </h1>
 
                     <p className='text-[#ADB7BE] text-base  sm:text-lg lg:text-xl mb-6 font-serif'>
-                        As a developer, I build clean, responsive and
-                        user-friendly websites. My expertise in HTML, CSS, JavaScript,
-                        React and Next.js
-                        lets me craft digital solutions that are not only functional
-                        but visually engaging.
-                        When I&apos;m not coding, I dive into writing and publishing cookbooks on Amazon.
-                        My books blend the art of cooking with the science of health,
-                        offering readers a taste of delicious, well-researched recipes.
-                        Let&apos;s connect, build, and create something amazing together!
+                        Hi! I build websites that are not just clean and responsive, but also easy and enjoyable to use. 
+                        I work with HTML, CSS, JavaScript, TypeScript, React.js, 
+                        and Next.js to turn ideas into digital experiences that actually feel good to interact with.
+                        When I’m not coding, I’m writing and publishing cookbooks on Amazon, bringing together 
+                        tasty recipes and healthy living in a way that’s practical and fun.
+                        Let’s connect and create something awesome together!
                     </p>
 
                     <div>
-                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Hire Me</button>
+                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>
+                            <a href="https://drive.google.com/drive/folders/1BTLDgaH-bP1ndElKEaXt8v-Dd3_DVEB9?usp=drive_link">
+                                Hire Me
+                            </a>
+                        </button>
+
                         <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-r  from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
-                            <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px- py-2'><a href="https://drive.google.com/file/d/1FPu_gXkwPL4CSEgu_Er_KQX6Fu8yYIUD/view?usp=drive_link">Download CV</a> </span>
+                            <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-3 py-2'>
+                                <a href="https://drive.google.com/drive/folders/1VTzExb7pe1FOf71EExVok16PyxLqe3hF?usp=drive_link">
+                                    Download CV
+                                </a>
+                            </span>
                         </button>
                     </div>
 

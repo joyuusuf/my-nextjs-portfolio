@@ -90,7 +90,7 @@ const EmailSection = () => {
 
           <Link href="https://twitter.com/mideyuusuf" target="_blank" rel="noopener noreferrer">
             <Image src="/images/x.png" alt="Twitter Icon" width={70} height={70} />
-          </Link>
+          </Link> 
         </div>
 
         {/* Success Message */}
