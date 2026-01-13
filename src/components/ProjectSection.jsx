@@ -56,6 +56,7 @@ const webProjects = [
         gitUrl: "https://github.com/joyuusuf/paid-banking.git",
         previewUrl: "/",
     },
+
     {
         id: 6,
         title: "HeadPhone",
@@ -76,7 +77,16 @@ const webProjects = [
         previewUrl: "https://mideyuusuf-newportfolio-rugn.vercel.app/ ",
     },
 
-     
+
+     {
+        id: 8,
+        title: "Nova Media",
+        description: " Created an earlier version of my portfolio using HTML, CSS, and JavaScript. Showcased core web development skills with custom styling, responsive design, and interactive elements to enhance user engagement.",
+        image: "/images/projects/nova.png",
+        tag: ["Project"],
+        gitUrl: "https://github.com/joyuusuf/my-first-portfolio.git",
+        previewUrl: "https://mideyuusuf-newportfolio-rugn.vercel.app/ ",
+    },
 
     {
         id: 9,
