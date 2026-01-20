@@ -13,8 +13,8 @@ const webProjects = [
         description: "My Portfolio built with Next.js",
         image: "/images/projects/1.png",
         tag: ["Project"],
-        gitUrl: "",
-        previewUrl: "https://github.com/joyuusuf/my-nextjs-portfolio.git",
+        gitUrl: "https://github.com/joyuusuf/my-nextjs-portfolio.git",
+        previewUrl: "https://novaglideportfolio.vercel.app",
     },
 
     {
