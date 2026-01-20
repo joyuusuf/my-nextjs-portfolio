@@ -24,7 +24,7 @@ const webProjects = [
         image: "/images/projects/paidleyimage.png",
         tag: ["Project"],
         gitUrl: "https://github.com/joyuusuf/paid-banking.git",
-        previewUrl: "/paidley-beta.vercel.app",
+        previewUrl: "https://paidley-beta.vercel.app",
     },
 
     {
