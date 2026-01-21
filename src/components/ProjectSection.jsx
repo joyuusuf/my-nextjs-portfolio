@@ -82,7 +82,7 @@ const webProjects = [
 
      {
         id: 8,
-        title: "Nova Media",
+        title: "NovaGlide Social Media",
         description: " NovaChat is a real-time chat web application built with Next.js, TypeScript, and Tailwind CSS. It focuses on performance, scalability, and a clean, responsive user experience, with a well-structured component architecture suitable for startup-ready products.",
         image: "/images/projects/nova.png",
         tag: ["Project"],
