@@ -37,6 +37,22 @@ const webProjects = [
         previewUrl: "https://flowvahub-test-murex.vercel.app",
     },
 
+
+     {
+        id: 6,
+        title: "Kolobuy E-commerce Website",
+        description: `Kolobuy is a modern e-commerce platform and online marketplace designed to 
+                        make buying and selling online simple, secure, and efficient. It connects 
+                        customers with sellers through an intuitive interface, fast product discovery, 
+                        and smooth checkout, all backed by secure payments and reliable order management. 
+                        Kolobuy empowers businesses to grow digitally while providing shoppers with a 
+                        seamless, trustworthy online shopping experience across all devices.`,
+        image: "/images/projects/kolobuy.png",
+        tag: ["Project"],
+        gitUrl: "https://github.com/joyuusuf/bank_app_with_firebase.git",
+        previewUrl: "/",
+    },
+
     {
         id: 4,
         title: "Paybuddies Fintech",
