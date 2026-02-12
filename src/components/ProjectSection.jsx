@@ -50,7 +50,7 @@ const webProjects = [
         image: "/images/projects/kolobuy.png",
         tag: ["Project"],
         gitUrl: "https://github.com/joyuusuf/kolobuy.git",
-        previewUrl: "/",
+        previewUrl: "https://kolobuy.vercel.app",
     },
 
     {
