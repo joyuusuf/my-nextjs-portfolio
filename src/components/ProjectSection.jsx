@@ -49,7 +49,7 @@ const webProjects = [
                         seamless, trustworthy online shopping experience across all devices.`,
         image: "/images/projects/kolobuy.png",
         tag: ["Project"],
-        gitUrl: "https://github.com/joyuusuf/bank_app_with_firebase.git",
+        gitUrl: "https://github.com/joyuusuf/kolobuy.git",
         previewUrl: "/",
     },
 
