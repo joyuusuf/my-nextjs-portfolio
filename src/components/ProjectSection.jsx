@@ -20,10 +20,10 @@ const webProjects = [
     {
         id: 2,
         title: "DebtPadi",
-        description: "A credit and debt tracking app built for Nigerian small business owners. Track who owes you, record partial payments, and send WhatsApp reminders in one tap — all without a notebook.",
+        description: "A credit and debt tracking app built for Nigerian small business owners. Track who owes you, record partial payments, and send WhatsApp reminders in one tap - all without a notebook.",
         image: "/images/projects/debtpadi.png",
         tag: ["Project", "Full Stack"],
-        gitUrl: "https://github.com/yourusername/debtpadi.git",
+        gitUrl: "https://github.com/joyuusuf/debtpadi.git",
         previewUrl: "https://debtpadi.vercel.app",
     },
 
