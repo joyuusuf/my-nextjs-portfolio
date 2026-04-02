@@ -85,7 +85,7 @@ const AboutSection = () => {
             collaborating with designers and developers, participating in code reviews, 
             and turning real business requirements into clean, reliable frontend solutions.
           </p>
-          <div className='flex flex-row mt-8 gap-5 justify-start'>
+          <div className='flex flex-row mt-8 gap-25 justify-start'>
             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
               {" "}
               Skills {" "}
