@@ -70,7 +70,7 @@ const webProjects = [
         image: "/images/projects/paybuddies.png",
         tag: ["Project"],
         gitUrl: "https://github.com/joyuusuf/payfintech.git",
-        previewUrl: "https://github.com/joyuusuf/headphone.git",
+        previewUrl: "",
     },
 
     {
