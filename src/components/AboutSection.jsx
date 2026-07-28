@@ -4,55 +4,26 @@ import Image from 'next/image'
 import TabButton from './TabButton';
 
 const TAB_DATA = [
-  {
+  { 
     title: "Skills",
     id: "skills",
     content: (
-      <div className='flex flex-col gap-5'>
-        <div>
-          <p className='text-xs uppercase tracking-widest text-cyan-300/70 mb-2'>Frontend</p>
-          <div className='flex flex-wrap gap-2'>
-            {["Next.js", "React", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "ShadCN UI"].map((skill) => (
-              <span key={skill} className='px-3 py-1 text-sm rounded-full border border-white/10 bg-white/5 text-slate-200 hover:border-cyan-400/50 hover:text-cyan-200 transition-colors'>
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
+      <ul className='list-disc pl-2'>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>Tailwind CSS</li> 
+        <li>React</li>
+        <li>Nextjs</li>
+        <li>Firebase</li>
+        <li>Node.js</li>
+        <li>MongoDB</li>
+        <li>Git</li>
+        <li>Figma</li>
+        <li>Cookbook Publishing (Amazon Kindle Direct Publishing)</li>
+        <li>E-Book Formatting.</li>
 
-        <div>
-          <p className='text-xs uppercase tracking-widest text-cyan-300/70 mb-2'>Backend & Data</p>
-          <div className='flex flex-wrap gap-2'>
-            {["Node.js", "Firebase", "MongoDB", "REST APIs"].map((skill) => (
-              <span key={skill} className='px-3 py-1 text-sm rounded-full border border-white/10 bg-white/5 text-slate-200 hover:border-cyan-400/50 hover:text-cyan-200 transition-colors'>
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <p className='text-xs uppercase tracking-widest text-cyan-300/70 mb-2'>Tools & Practice</p>
-          <div className='flex flex-wrap gap-2'>
-            {["Git", "GitHub", "Vercel", "Figma", "SSR / SSG", "Agile / Scrum", "Code Reviews"].map((skill) => (
-              <span key={skill} className='px-3 py-1 text-sm rounded-full border border-white/10 bg-white/5 text-slate-200 hover:border-cyan-400/50 hover:text-cyan-200 transition-colors'>
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <p className='text-xs uppercase tracking-widest text-cyan-300/70 mb-2'>Publishing</p>
-          <div className='flex flex-wrap gap-2'>
-            {["Amazon KDP Publishing", "E-Book Formatting"].map((skill) => (
-              <span key={skill} className='px-3 py-1 text-sm rounded-full border border-white/10 bg-white/5 text-slate-200 hover:border-cyan-400/50 hover:text-cyan-200 transition-colors'>
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
-      </div>
+      </ul>
     )
   },
 
@@ -60,18 +31,10 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <div className='flex flex-col gap-4'>
-        <div className='border-l-2 border-cyan-400/40 pl-4'>
-          <p className='font-semibold text-white'>Diploma in Software Development</p>
-          <p className='text-sm text-slate-300'>SQI College of ICT, Dugbe Campus, Ibadan, Oyo State, Nigeria</p>
-          <p className='text-xs text-slate-400 mt-1'>2023 - 2024</p>
-        </div>
-        <div className='border-l-2 border-cyan-400/40 pl-4'>
-          <p className='font-semibold text-white'>B.Sc. (Ed) Economics</p>
-          <p className='text-sm text-slate-300'>Obafemi Awolowo University (OAU), Ile-Ife, Osun State, Nigeria</p>
-          <p className='text-xs text-slate-400 mt-1'>2014 - 2018</p>
-        </div>
-      </div>
+      <ul className='list-disc pl-2'>
+        <li>SQI College of ICT, Dugbe Campus, Ibadan, Oyo State, Nigeria.</li>
+        <li>Obafemi Awolowo University (OAU), Ile-Ife, Osun State, Nigeria. </li>
+      </ul>
     )
   },
 
@@ -79,46 +42,28 @@ const TAB_DATA = [
     title: "Experience",
     id: "experience",
     content: (
-      <div className='flex flex-col gap-4'>
-        {[
-          {
-            role: "Project Coordinator",
-            company: "Strategy Execution Company (Remote, US-based)",
-            period: "May 2025 - Present",
-          },
-          {
-            role: "Frontend Developer (Contract)",
-            company: "Starlight Energy & Agro Allied Ltd",
-            period: "2025 - Present",
-          },
-          {
-            role: "Frontend Developer",
-            company: "Strategy Execution Company (Remote, US-based)",
-            period: "Jan 2025 - May 2025",
-          },
-          {
-            role: "Front-End Developer",
-            company: "Cyberbuddies Ltd, Bodija, Ibadan, Oyo State, Nigeria",
-            period: "Nov 2024 - Jan 2025",
-          },
-          {
-            role: "Front-End Developer Intern",
-            company: "Smarthivetech Solutions Ltd, Lagos, Nigeria (Remote)",
-            period: "Jul 2024 - Oct 2024",
-          },
-        ].map((job) => (
-          <div key={job.role + job.period} className='border-l-2 border-cyan-400/40 pl-4'>
-            <p className='font-semibold text-white'>{job.role}</p>
-            <p className='text-sm text-slate-300'>{job.company}</p>
-            <p className='text-xs text-slate-400 mt-1'>{job.period}</p>
-          </div>
-        ))}
-      </div>
+      <ul className='list-disc pl-2'>
+        <li>
+          Front-End Developer Intern (Remote), Smarthivetech Solutions LTD, Lagos, Nigeria.
+           22nd July 2024 - 3rd October 2024
+
+        </li>
+
+        <li>
+          Front-End Developer, Cyberbuddies Ltd, Bodija, Ibadan, Oyo State, Nigeria.
+           October 2024 - December 2024.
+
+        </li>
+
+        <li>
+          Freelance Front-End Developer, Upwork (Remote).
+          2024 - Present
+        </li>
+      </ul>
     )
   }
 
 ]
-
 const AboutSection = () => {
   const [tab, setTab] = useState('skills');
   const [isPending, startTransition] = useTransition();
@@ -128,55 +73,42 @@ const AboutSection = () => {
       setTab(id)
     });
   }
-
   return (
     <section className='text-white'>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-start py-12 px-4 xl:gap-16 sm:py-16 xl:px-16 max-w-6xl mx-auto'>
+      <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
+        <Image src="/images/abt-image.jpeg" alt="" width={500} height={500} />
 
-        <div className='relative w-full max-w-sm mx-auto md:mx-0'>
-          <div className='absolute -inset-3 rounded-2xl bg-gradient-to-tr from-cyan-400/20 via-transparent to-violet-500/20 blur-xl' />
-          <Image
-            src="/images/abt-image.jpeg"
-            alt="Portrait of Jawad Olamide Yuusuf"
-            width={500}
-            height={500}
-            className='relative rounded-2xl border border-white/10 w-full h-auto object-cover'
-          />
-        </div>
-
-        <div className='text-left flex flex-col'>
-          <p className='text-sm uppercase tracking-[0.2em] text-cyan-300/80 mb-2'>About Me</p>
-          <h2 className='text-3xl sm:text-4xl font-bold text-white mb-4'>
-            Building fast, clean, production-ready frontends
-          </h2>
-          <p className='text-base lg:text-lg text-slate-300 leading-relaxed'>
-            I'm a Next.js-focused frontend developer with hands-on experience building
-            high-performance, responsive, and SEO-friendly web applications. I work with
-            React, Next.js, TypeScript, and modern CSS frameworks to create scalable and
-            maintainable user interfaces, from equity management platforms with role-based
-            permissions to agritech dashboards handling credit scoring and risk monitoring.
-            I enjoy collaborating with designers and developers, participating in code
-            reviews, and turning real business requirements into clean, reliable frontend
-            solutions.
+        <div className='mt-4 md:mt-0 text-left flex flex-col h-full '>
+          <h2 className='text-4xl font-bold text-white mb-4 '>About Me</h2>
+          <p className='text-base lg:text-lg '>
+           I am a Next.js-focused Front-End Developer with hands-on experience building 
+            high-performance, responsive, and SEO-friendly web applications. I work with 
+            React, Next.js, TypeScript, and modern CSS frameworks to create scalable and 
+            maintainable user interfaces. I have experience implementing server-side 
+            rendering (SSR), static site generation (SSG), integrating third-party APIs, 
+            and optimizing applications for performance across devices. I enjoy 
+            collaborating with designers and developers, participating in code reviews, 
+            and turning real business requirements into clean, reliable frontend solutions.
           </p>
-
-          <div className='flex flex-row flex-wrap mt-8 gap-3 justify-start'>
+          <div className='flex flex-row mt-8 gap-5 justify-start'>
             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
-              Skills
+              {" "}
+              Skills {" "}
             </TabButton>
 
             <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>
-              Education
-            </TabButton>
-
+              {" "}
+              Education {" "}
+            </TabButton> 
+            
             <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"}>
-              Experience
+              {" "}
+              Experience {" "}
             </TabButton>
+
           </div>
 
-          <div className={`mt-8 rounded-2xl border border-white/10 bg-white/[0.03] p-5 sm:p-6 transition-opacity duration-200 ${isPending ? 'opacity-50' : 'opacity-100'}`}>
-            {TAB_DATA.find((t) => t.id === tab).content}
-          </div>
+          <div className='mt-8'>{TAB_DATA.find ((t) => t.id === tab).content}</div>
         </div>
       </div>
     </section>
