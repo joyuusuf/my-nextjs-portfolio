@@ -7,18 +7,38 @@ import { image } from "fontawesome";
 
 
 const webProjects = [
-    {
-        id: 1,
-        title: "My Next.js Portfolio",
-        description: "My Portfolio built with Next.js",
-        image: "/images/projects/1.png",
-        tag: ["Project"],
-        gitUrl: "https://github.com/joyuusuf/my-nextjs-portfolio.git",
-        previewUrl: "https://novaglideportfolio.vercel.app",
-    },
 
     {
-        id: 2,
+        id: 0,
+    title: "Starlight Marketplace",
+    description: "Starlight Marketplace is a web application that allows users to buy and sell products online. It features a user-friendly interface, secure payment options, and a robust search functionality to enhance the shopping experience.",
+    image: "/images/Starlight-marketplace.png",
+    tag: ["Project"],
+    previewUrl: "https://starlightecoenergy.com",
+    },
+
+
+    {
+        id: 1,
+    image: "/images/founders-fund.png",
+    title: "Founders Fund",
+    description: "Equity management with role-based permissions and live ownership visualizations.",
+    tag: ["Project"],
+    previewUrl: "https://founders-fund.vercel.app",
+},
+
+
+ {
+    id: 2,
+    title: "AgriConnect",
+    image: "/images/Starlight-agriconnect.png",
+    description: "An agritech platform with credit scoring, repayment tracking, and risk monitoring.",
+    tag: ["Project"],
+    previewUrl: "https://agri-connect-front-end-8o3i.vercel.app/login", 
+  },
+
+    {
+        id: 3,
         title: "DebtPadi",
         description: "A credit and debt tracking app built for Nigerian small business owners. Track who owes you, record partial payments, and send WhatsApp reminders in one tap - all without a notebook.",
         image: "/images/projects/debtpadi.png",
@@ -27,8 +47,10 @@ const webProjects = [
         previewUrl: "https://debtpadi.vercel.app",
     },
 
+    
+
     {
-        id: 3,
+        id: 5,
         title: "Paidley Banking Web App",
         description: "A modern fintech app that lets users send, receive, and manage money globally, with multi-currency wallets, virtual cards, and secure international transfers.",
         image: "/images/projects/paidleyimage.png",
@@ -38,7 +60,7 @@ const webProjects = [
     },
 
     {
-        id: 4,
+        id: 6,
         title: "FlowvaHub",
         description: "Flowvahub helps you organize your digital workspace, track what you use and spend, and discover smarter tools, with an added twist of earning rewards while you do it.",
         image: "/images/projects/f.png",
@@ -49,7 +71,7 @@ const webProjects = [
 
 
     {
-        id: 5,
+        id: 7,
         title: "Kolobuy E-commerce Website",
         description: `Kolobuy is a modern e-commerce platform and online marketplace designed to 
                         make buying and selling online simple, secure, and efficient. It connects 
@@ -64,7 +86,7 @@ const webProjects = [
     },
 
     {
-        id: 6,
+        id: 8,
         title: "Paybuddies Fintech",
         description: "Paybuddies built with HTML, CSS, and JavaScript",
         image: "/images/projects/paybuddies.png",
@@ -73,20 +95,20 @@ const webProjects = [
         previewUrl: "",
     },
 
-    {
-        id: 7,
-        title: "Admin Page",
-        description: "Designed and developed a fully responsive Admin Dashboard using Next.js, Tailwind CSS, and ShadCN UI library. The dashboard features a user-friendly interface with interactive elements, optimized for seamless navigation and functionality across devices.",
-        image: "/images/projects/2.png",
-        tag: ["Project"],
-        gitUrl: "https://github.com/joyuusuf/admin-page.git",
-        previewUrl: "https://github.com/joyuusuf/admin-page.git",
-    },
+    // {
+    //     id: 9,
+    //     title: "Admin Page",
+    //     description: "Designed and developed a fully responsive Admin Dashboard using Next.js, Tailwind CSS, and ShadCN UI library. The dashboard features a user-friendly interface with interactive elements, optimized for seamless navigation and functionality across devices.",
+    //     image: "/images/projects/2.png",
+    //     tag: ["Project"],
+    //     gitUrl: "https://github.com/joyuusuf/admin-page.git",
+    //     previewUrl: "https://github.com/joyuusuf/admin-page.git",
+    // },
 
 
 
     {
-        id: 8,
+        id: 10,
         title: "HeadPhone",
         description: "A headphone website built with HTML, CSS and JavaScript",
         image: "/images/projects/13.png",
@@ -96,35 +118,35 @@ const webProjects = [
     },
 
     {
-        id: 9,
-        title: "HTML Portfolio",
-        description: " Created an earlier version of my portfolio using HTML, CSS, and JavaScript. Showcased core web development skills with custom styling, responsive design, and interactive elements to enhance user engagement.",
-        image: "/images/projects/11.png",
-        tag: ["Project"],
-        gitUrl: "https://github.com/joyuusuf/my-first-portfolio.git",
-        previewUrl: "https://mideyuusuf-newportfolio-rugn.vercel.app/ ",
-    },
+    //     id: 11,
+    //     title: "HTML Portfolio",
+    //     description: " Created an earlier version of my portfolio using HTML, CSS, and JavaScript. Showcased core web development skills with custom styling, responsive design, and interactive elements to enhance user engagement.",
+    //     image: "/images/projects/11.png",
+    //     tag: ["Project"],
+    //     gitUrl: "https://github.com/joyuusuf/my-first-portfolio.git",
+    //     previewUrl: "https://mideyuusuf-newportfolio-rugn.vercel.app/ ",
+    // },
 
 
-    {
-        id: 10,
-        title: "NovaGlide Social Media",
-        description: " NovaChat is a real-time chat web application built with Next.js, TypeScript, and Tailwind CSS. It focuses on performance, scalability, and a clean, responsive user experience, with a well-structured component architecture suitable for startup-ready products.",
-        image: "/images/projects/nova.png",
-        tag: ["Project"],
-        gitUrl: "https://github.com/joyuusuf/novaglide_social_media",
-        previewUrl: "",
-    },
+    // {
+    //     id: 12,
+    //     title: "NovaGlide Social Media",
+    //     description: " NovaChat is a real-time chat web application built with Next.js, TypeScript, and Tailwind CSS. It focuses on performance, scalability, and a clean, responsive user experience, with a well-structured component architecture suitable for startup-ready products.",
+    //     image: "/images/projects/nova.png",
+    //     tag: ["Project"],
+    //     gitUrl: "https://github.com/joyuusuf/novaglide_social_media",
+    //     previewUrl: "",
+    // },
 
-    {
-        id: 11,
-        title: "Amazon NavBar",
-        description: "Amazon Navbar built with HTML and CSS",
-        image: "/images/projects/4.png",
-        tag: ["Project"],
-        gitUrl: "https://github.com/joyuusuf/Amazon-Website.git",
-        previewUrl: "/",
-    },
+    // {
+    //     id: 13,
+    //     title: "Amazon NavBar",
+    //     description: "Amazon Navbar built with HTML and CSS",
+    //     image: "/images/projects/4.png",
+    //     tag: ["Project"],
+    //     gitUrl: "https://github.com/joyuusuf/Amazon-Website.git",
+    //     previewUrl: "/",
+    // },
 
 
     // {
@@ -136,25 +158,27 @@ const webProjects = [
     //     gitUrl: "https://github.com/joyuusuf/bank_app_with_firebase.git",
     //     previewUrl: "/",
     // },
-    {
-        id: 12,
-        title: "Statistical Table",
-        description: "Built an interactive Statistical Table using HTML, CSS, and JavaScript with a fully responsive design adaptable to various screen sizes. Integrated dark and light mode toggling to enhance accessibility and user experience.",
-        image: "/images/projects/12.png",
-        tag: ["Project"],
-        gitUrl: "https://github.com/joyuusuf/AlphaTwelve-Project.git",
-        previewUrl: "https://github.com/joyuusuf/AlphaTwelve-Project.git",
-    },
+    // {
+    //     id: 134,
+    //     title: "Statistical Table",
+    //     description: "Built an interactive Statistical Table using HTML, CSS, and JavaScript with a fully responsive design adaptable to various screen sizes. Integrated dark and light mode toggling to enhance accessibility and user experience.",
+    //     image: "/images/projects/12.png",
+    //     tag: ["Project"],
+    //     gitUrl: "https://github.com/joyuusuf/AlphaTwelve-Project.git",
+    //     previewUrl: "https://github.com/joyuusuf/AlphaTwelve-Project.git",
+    // },
 
-    {
-        id: 13,
-        title: "Twitter Portfolio Website",
-        description: "Developed a Twitter Page Clone using only HTML and CSS, replicating the visual design and layout of Twitter’s interface. ",
-        image: "/images/projects/3.png",
-        tag: ["Project"],
-        gitUrl: "https://github.com/joyuusuf/Twitter-pages.git",
-        previewUrl: "/",
-    },
+    // {
+    //     id: 4,
+    //     title: "My Next.js Portfolio",
+    //     description: "My Portfolio built with Next.js",
+    //     image: "/images/projects/1.png",
+    //     tag: ["Project"],
+    //     gitUrl: "https://github.com/joyuusuf/my-nextjs-portfolio.git",
+    //     previewUrl: "https://novaglideportfolio.vercel.app",
+    // },
+    }
+    
 ];
 
 
