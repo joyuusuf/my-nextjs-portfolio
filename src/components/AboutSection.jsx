@@ -150,7 +150,7 @@ const AboutSection = () => {
             Building fast, clean, production-ready frontends
           </h2>
           <p className='text-base lg:text-lg text-slate-300 leading-relaxed'>
-            I'm a Next.js-focused frontend developer with hands-on experience building
+            I&apos;m a Next.js-focused frontend developer with hands-on experience building
             high-performance, responsive, and SEO-friendly web applications. I work with
             React, Next.js, TypeScript, and modern CSS frameworks to create scalable and
             maintainable user interfaces, from equity management platforms with role-based
