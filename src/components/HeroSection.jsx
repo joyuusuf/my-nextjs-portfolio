@@ -80,14 +80,18 @@ const HeroSection = () => {
                     <div className='relative w-[260px] h-[260px] sm:w-[320px] sm:h-[320px] lg:w-[420px] lg:h-[420px]'>
                         <div className='absolute inset-0 rounded-full bg-gradient-to-br from-purple-500/30 via-pink-500/20 to-blue-500/30 blur-2xl' />
                         <div className='absolute inset-0 rounded-full bg-[#181818] border border-white/5' />
-                        <Image
-                            src="/images/hero-3a.png"
-                            alt="Portrait of J. Olamide Yuusuf"
-                            width={400}
-                            height={400}
-                            priority
-                            className='absolute inset-0 w-full h-full object-contain p-4'
-                        />
+
+                        {/* Dedicated clipping container so the image is actually cropped into a circle */}
+                        <div className='absolute inset-0 rounded-full overflow-hidden'>
+                            <Image
+                                src="/images/heroimage.png"
+                                alt="Portrait of J. Olamide Yuusuf"
+                                fill
+                                priority
+                                sizes="(min-width: 1024px) 420px, (min-width: 640px) 320px, 260px"
+                                className='object-cover object-top'
+                            />
+                        </div>
                     </div>
                 </div>
 
